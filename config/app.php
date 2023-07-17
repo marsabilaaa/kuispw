@@ -4,7 +4,10 @@ use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
 
 return [
-
+    'providers' => [
+        // ...
+        Spatie\Permission\PermissionServiceProvider::class,
+    ],
     /*
     |--------------------------------------------------------------------------
     | Application Name
